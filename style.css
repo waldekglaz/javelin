@@ -200,6 +200,7 @@ h1 span {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/countersMobile.jpg);
   background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
   color: #fff;
 }
 
@@ -408,4 +409,98 @@ h1 span {
   width: 25vw;
   height: 25vw;
   border-radius: 50%;
+}
+
+/* section customers */
+.customers {
+  display: flex;
+  overflow-x: hidden;
+
+}
+
+.customers img {
+  width: 70%;
+  margin-right: 50px;
+  margin: 0 auto;
+}
+
+img.slide {
+  margin-left: calc(-100vw - 50px);
+}
+
+/* footer  */
+
+footer {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/countersMobile.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 50px 0;
+  color: #eee;
+}
+
+footer .logo {
+  margin-bottom: 32px;
+}
+
+.footer-text {
+  padding: 0 20%;
+  line-height: 30px;
+  font-size: 18px;
+  margin-bottom: 14px;
+}
+
+.social-links {
+  margin-bottom: 30px;
+}
+
+footer .social-links a {
+  color: #eee;
+  font-size: 17px;
+  padding: 5px;
+  margin-right: 5px;
+
+
+}
+
+.headings {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 6%;
+
+}
+
+.headings h2 {
+  font-size: 18px;
+  margin-bottom: 20px;
+  flex-basis: 33%;
+}
+
+.footer-nav {
+  padding: 0 6%;
+}
+
+.footer-nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer-nav li {
+  flex-basis: 33%;
+  margin-bottom: 20px;
+}
+
+.footer-nav a {
+  color: #eee;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+/* author */
+.author {
+  font-size: 16px;
+  text-align: center;
+  padding: 30px;
 }

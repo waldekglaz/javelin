@@ -22,8 +22,7 @@ const elDots = [...document.querySelectorAll('.dot')];
 
 elDots.forEach((dot) => {
     dot.addEventListener('click', function (e) {
-        console.log(e.target.id);
+        // console.log(e.target.id);
         elImg.src = images[e.target.id];
-        elDots[e.target.id].classList.toggle('active')
     });
 })

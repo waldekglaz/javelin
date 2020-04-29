@@ -311,7 +311,7 @@ h1 span {
 
 .gallery-slider {
   display: flex;
-  overflow: hidden;
+  overflow-x: hidden;
   padding-bottom: 68px;
 }
 

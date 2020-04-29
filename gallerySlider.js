@@ -21,7 +21,7 @@ for (let i = 0; i < images.length; i++) {
 const elDots = [...document.querySelectorAll('.dot')];
 
 elDots.forEach((dot) => {
-    dot.addEventListener('click', (e) => {
+    dot.addEventListener('click', function (e) {
         console.log(e.target.id);
         elImg.src = images[e.target.id];
         elDots[e.target.id].classList.toggle('active')

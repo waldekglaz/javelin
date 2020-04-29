@@ -205,7 +205,7 @@ h1 span {
 
 .counter {
   flex-basis: 49%;
-  padding-top: 35px;
+  margin-bottom: 20px;
 }
 
 .counter .number {
@@ -221,7 +221,6 @@ h1 span {
   width: 30px;
   height: 3px;
   background-color: rgb(255, 198, 46);
-  ;
   z-index: 5;
   bottom: 13px;
   left: 50%;
@@ -406,7 +405,7 @@ h1 span {
 }
 
 .review img {
-  width: 20vw;
-  height: 20vw;
+  width: 25vw;
+  height: 25vw;
   border-radius: 50%;
 }
